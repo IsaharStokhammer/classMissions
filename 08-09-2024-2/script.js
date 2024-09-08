@@ -46,3 +46,10 @@ function mission2() {
     }
 }
 
+function mission3(num) {
+    for (let i = 0; i < num; i++) {
+        console.log("*".repeat(i + 1));
+    }
+}
+mission3(5);
+
