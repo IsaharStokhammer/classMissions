@@ -94,8 +94,7 @@ const data = [
   const addresses = data.map(person => person.address);
   console.log(addresses)
   // Exercise 3: Use the map method to get the hobbies of all the people in the data array in a single array
-  
-  
+  const hobbies = data.map(person => person.hobbies);  
   // FIND
   
   // Exercise 1: Use the find method to find the first person who lives in Chicago
