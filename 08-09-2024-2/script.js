@@ -57,4 +57,17 @@ function mission4(num) {
         console.log("*".repeat(num - i));
     }
 }
-mission4(5)
+
+
+function mission5(num) {
+    for (let i = 1; i <= num; i++) {
+        let row = '';
+        for (let j = 1; j <= num; j++) {
+            row += (i * j).toString().padStart(4, ' - ');
+        }
+        console.log(row);
+    }
+}
+
+mission5(5);
+
