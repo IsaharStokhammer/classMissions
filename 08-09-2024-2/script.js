@@ -69,5 +69,9 @@ function mission5(num) {
     }
 }
 
-mission5(5);
+function mission6(num) {
+    let numToArr = num.toString().split("").reverse();    
+    console.log(numToArr.join(""));
+}
+mission6(12345);
 
