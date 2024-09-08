@@ -71,7 +71,16 @@ function mission5(num) {
 
 function mission6(num) {
     let numToArr = num.toString().split("").reverse();    
-    console.log(numToArr.join(""));
+    console.log(numToArr.join());
 }
 mission6(12345);
 
+function mission7(str) {
+    if (str.length > 1)
+    {return str}
+    else{
+        str.array.forEach(c => c ===" " , " ")
+    }
+    return str.trim();
+
+}
