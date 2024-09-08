@@ -3,7 +3,7 @@ const h1 = document.createElement('h1');
 h1.innerHTML = "title example";
 document.getElementById('mainDiv').appendChild(h1);
 const btn = document.createElement('button');
-btn.innerHTML = "click me";
+btn.innerText = "לחץ כאן";
 btn.style.backgroundColor = "blue";
 btn.style.color = "white";
 btn.style.padding = "10px";
@@ -50,6 +50,6 @@ items.forEach((item) => {
     p.innerHTML = `${item.price}`;
     childDiv.appendChild(p);
     let image = document.createElement('img');
-    image.src = 'https://picsum.photos/200/350';
+    image.src = 'https://picsum.photos/654/350';
     childDiv.appendChild(image);
 })
