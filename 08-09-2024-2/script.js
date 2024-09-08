@@ -51,5 +51,10 @@ function mission3(num) {
         console.log("*".repeat(i + 1));
     }
 }
-mission3(5);
 
+function mission4(num) {
+    for (let i = 0; i < num; i++) {
+        console.log("*".repeat(num - i));
+    }
+}
+mission4(5)
